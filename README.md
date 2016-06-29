@@ -1,5 +1,10 @@
-# bootstrap easy validations
+# bootstrap data validations
+
+bower: `bower install bootstrap-data-validation`
+
 this provide easy to handle jquery validation inside bootstrap environment
+under the hood it uses jquery validations plugin to validate inputs
+
 
 check the demo folder for example
 
