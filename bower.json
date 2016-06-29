@@ -1,0 +1,20 @@
+{
+  "name": "bootstrap-validation",
+  "authors": [
+    "Sagar Rabadiya <sam.coolone70@gmail.com>"
+  ],
+  "description": "out of box validation with just data attributes and html5 validation",
+  "main": "bootstrap-validation.js",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-validation": "^1.15.0"
+  }
+}

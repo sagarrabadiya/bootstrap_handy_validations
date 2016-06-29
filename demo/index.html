@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<h3 class="text-center">Form validation</h3>
+			<div class="col-xs-12">
+				<fieldset>
+					<form class="form-horizontal" data-validation="true" action="#" method="post">
+						<div class="form-group">
+							<label class="control-label col-xs-3">Email</label>
+							<div class="col-xs-9">
+								<input type="email" data-message-email="invalid email" data-message-required="fill in please" class="form-control" data-required="true">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-xs-3">Password</label>
+							<div class="col-xs-9">
+								<input type="password" class="form-control" name="password" id="password" data-equal-to="#confirm_password" data-required="true" data-message-required="password is missing" data-messasge-equal-to="passowrd not matching" />
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-xs-3">Confirm Password</label>
+							<div class="col-xs-9">
+								<input type="password" class="form-control" name="confirm_password" id="confirm_password" data-required="true" />
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-xs-9 pull-right">
+								<button type="submit" class="btn btn-primary">Submit</button>
+							</div>
+						</div>
+					</form>
+				</fieldset>
+			</div>
+		</div>
+	</div>
+</body>
+	<script   src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="../bootstrap-validation.js"></script>
+</html>
